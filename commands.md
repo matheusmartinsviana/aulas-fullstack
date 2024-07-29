@@ -2,7 +2,9 @@
 Github test and good pratices
 
 ###
-<img src='./git.png' height=50 width=50>
+
+<img src='./git.png' height=50 width=50 />
+
 # Github Commands
 
 ## Initial Config
