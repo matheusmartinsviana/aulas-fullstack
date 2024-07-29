@@ -60,7 +60,7 @@ git init
 ```bash
 Show the current state from repository
 git status
-```´
+```
 
 ```bash
 Add the modified file to the index (staging area)
@@ -71,13 +71,18 @@ git add <filename ou . >
 Remove all files from index (staging area)
 git rm --cached <file> / git restore --staged <filename ou . >
 ```
-```bash
-List all local branchs that exists
-git branch
 
+List all local branchs that exists
+```bash
+git branch
+```
+
+```bash
 List all remote branchs
 git branch -r
+```
 
+```bash
 List all local/remote branchs
 git branch -a
 ```
@@ -87,32 +92,37 @@ Move to a specific branch
 git checkout <branchname>
 ```
 
-```bash
 Create a new branch and enter on this branch
+```bash
 git checkout -b <branchname>
+```
 
+```bash
 Delete a branch
 git branch -D <branchname>
 ```
-```bash
-Create a commit with all modifications in the index with a message
-git commit -m "<description>"
 
+Create a commit with all modifications in the index with a message
+```bash
+git commit -m "<description>"
+```
+
+```bash
 Discard the last commit keeping the changes in the index
 git reset --soft HEAD~1
 ```
 
-```bash
 Send commits from local repository to remote repository
+```bash
 git push
 ```
 
-```bash
 Update the local repository with informations from remote repository
+```bash
 git fetch
 ```
 
-```bash
 Update the local repository with news updates from remote branch
+```bash
 git pull
 ```
